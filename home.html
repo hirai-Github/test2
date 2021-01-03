@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>NEMURI-MIZU Official Site</title>
+    <link rel="stylesheet" href="home.css">
+
+    <!-- 表示領域の設定 -->
+    <meta name="viewport" content="width=device-width">
+    <!-- SEOの記載 -->
+    <meta name="robots" content="noindex,nofollow">
+   
+    <!-- 指定したURLが正規のものであるという記載 -->
+    <!-- <link rel="canonical" href="https://lopan.jp/css-animation">  -->
+    
+    <!-- Google Fonts :サイト名のロゴとフッターのサイト名で使用 -->
+    <!-- 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed">
+    -->
+  </head>
+
+  <body>
+    <!-- ドロワーメニュー -->
+    <input type="checkbox" id="navTgl">
+    <label for="navTgl" class="open"><span></span></label>
+    <label for="navTgl" class="close"></label>
+    <nav class="menu">
+      <h2>menu</h2>
+
+      <div class="menu-main">
+        <ul>
+          <li><a href="home.html">ホーム</a></li>
+          <li><a href="#article2">作品</a></li>
+          <li><a href="last story.html">&nbsp;&nbsp;&nbsp;&nbsp;最近公開した作品</a></li>
+          <li><a href="#article5">&nbsp;&nbsp;&nbsp;&nbsp;公開予定の作品</a></li>
+          <li><a href="#article6">&nbsp;&nbsp;&nbsp;&nbsp;ドグマ世界作品</a></li>
+          <li><a href="#article7">&nbsp;&nbsp;&nbsp;&nbsp;短編・超短編作品</a></li>
+          <li><a href="#article8">グッズ（発売未定）</a></li>
+          <li><a href="#article9">作家</a></li>
+        </ul>
+          
+      </div>
+      <div class="menu-help">
+        <ul>
+          <li><a href="#article11">無料公開の理由について</a></li>
+          <li><a href="#article12">作品の著作権に関して</a></li>
+          <li><a href="#article13">ソーシャルメディア</a></li>
+          <li><a href="#article14">問い合わせ先</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <div class="contents">
+      <header>
+        <div class="website-logo">
+          <a href="home.html">
+          <img src="./pic/home/website-logo.png" width="318" height="22.8">
+          </a>
+        </div>
+
+        <div class="sns-logo">
+          <img src="./pic/home/sns-logo.png" width="53.4" height="22.8">
+        </div>
+      </header>
+      <div class="nemurimizu-logo">
+        <img src="./pic/home/nemuri-mizu_logo_official.png" width="750" height="750">
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      <!-- ツイッターアイコンのみ、クリックするとプロフィールに飛ぶやつ。ハンバーガーメニューの下のほうに並べたい -->
+      <!-- どこに表示されているかわからない -->
+      <!-- aタグの書きかたが間違っている？ -->
+      <div class="landing-sns__main">あああ
+	  <a class="hover Item-Anchor"
+	   href="https://twitter.com/progateJP" 
+        <img src="./pic/sns/icon_twitter.png">
+      </div>
+
+
+      <!-- タイムライン（hirai_st） -->
+      <!-- タイムライン aタグ内のクラス名は変えちゃダメ -->
+      <div class="timeline">
+		<a class="twitter-timeline" 
+		data-height="800" data-theme="light" 
+		href="https://twitter.com/hirai_st?ref_src=twsrc%5Etfw">Tweets by hirai_st</a> 
+		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+		<!-- タイムライン（katomotohiro） ツイート長い人表示用 -->
+		<a class="twitter-timeline" 
+		data-height="800" data-theme="light" 
+		href="https://twitter.com/katomotohiro?ref_src=twsrc%5Etfw">Tweets by katomotohiro</a> 
+		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+
+      <!-- シェアボタン -->
+      <div class="twitter-share">
+		<a href="https://twitter.com/share" class="twitter-share-button"
+		data-url=""
+		data-via=""
+		data-text=""
+		data-related=""
+		data-count=""
+		data-lang=""
+		data-counturl=""
+		data-hashtags=""
+		data-size=""
+		>ツイート</a>
+		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+
+      <!-- シェアボタン 自作っぽいやつ 新しいウィンドウで開く（コピー元） -->
+      <!-- 
+      <div class="blog-Content_Header_Right">
+          <ul class="share_List">
+            <li><a class="hover Item-Anchor" href="http://twitter.com/share?url=https://irokoto.co.jp/blog/20200612/post-12&amp;text=Twitter%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%B3%E3%81%AE%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%82%92%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%82%A4%E3%82%BA%E3%81%97%E3%80%81%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95%28TwitterAPI%E3%81%AB%E9%A0%BC%E3%82%89%E3%81%9A%E3%81%AB%E5%A4%89%E6%9B%B4%29" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"><img class="w100" src="https://irokoto.co.jp/wp/wp-content/themes/irokoto_v0/assets/images/common/blog/icon_twitter.png"></a></li>
+            <li><a class="hover Item-Anchor" href="http://www.facebook.com/share.php?u=https://irokoto.co.jp/blog/20200612/post-12" onclick="window.open(encodeURI(decodeURI(this.href)), 'FBwindow', 'width=554, height=470, menubar=no, toolbar=no, scrollbars=yes'); return false;" rel="nofollow"><img class="w100" src="https://irokoto.co.jp/wp/wp-content/themes/irokoto_v0/assets/images/common/blog/icon_facebook.png"></a></li>
+            <li><a class="hover Item-Anchor" href="http://line.me/R/msg/text/?Twitter%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%B3%E3%81%AE%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%82%92%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%82%A4%E3%82%BA%E3%81%97%E3%80%81%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95%28TwitterAPI%E3%81%AB%E9%A0%BC%E3%82%89%E3%81%9A%E3%81%AB%E5%A4%89%E6%9B%B4%29https://irokoto.co.jp/blog/20200612/post-12" target="_blank"><img class="w100" src="https://irokoto.co.jp/wp/wp-content/themes/irokoto_v0/assets/images/common/blog/icon_line.png"></a></li>
+          </ul>
+      </div>
+       -->
+              
+      <!-- シェアボタン 自作っぽいやつ 新しいウィンドウで開く -->
+      <!-- シェアするHPはコピー元のまま -->
+      <!-- 
+      <div class="blog-Content_Header_Right">
+          <ul class="share_List">
+            <li><a class="hover Item-Anchor" href="https://twitter.com/share?url=https://irokoto.co.jp/blog/20200612/post-12&amp;text=Twitter%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%B3%E3%81%AE%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%82%92%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%82%A4%E3%82%BA%E3%81%97%E3%80%81%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95%28TwitterAPI%E3%81%AB%E9%A0%BC%E3%82%89%E3%81%9A%E3%81%AB%E5%A4%89%E6%9B%B4%29" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;">
+                   <img class="w100" src="./pic/sns/icon_twitter.png"></a></li>
+            <li><a class="hover Item-Anchor" href="http://www.facebook.com/share.php?u=https://irokoto.co.jp/blog/20200612/post-12" onclick="window.open(encodeURI(decodeURI(this.href)), 'FBwindow', 'width=554, height=470, menubar=no, toolbar=no, scrollbars=yes'); return false;" rel="nofollow">
+                   <img class="w100" src="./pic/sns/icon_facebook.png"></a></li>
+          </ul>
+      </div>
+       -->
+
+
+
+
+
+      <!-- フォローボタン -->
+	  <a href="https://twitter.com/intent/tweet?screen_name=hirai_st&ref_src=twsrc%5Etfw" 
+	  class="twitter-mention-button" 
+	  data-show-count="false">Tweet to @hirai_st</a>
+	  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+<ul class='footer__menus footer__menus-sns'>
+
+<li><a target="_blank" href="https://www.facebook.com/Progate-742679992421539">Facebook</a></li>
+
+<li><a target="_blank" href="https://twitter.com/progateJP">Twitter</a></li>
+
+</ul>
+
+      <footer>
+
+
+        <p class="copyright"><small>© 2021 NEMURI-MIZU Official Site</small></p>
+      </footer>
+    </div>
+  </body>
+</html>
